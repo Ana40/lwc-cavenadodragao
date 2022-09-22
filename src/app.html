@@ -1,0 +1,13 @@
+<template>
+	<lightning-card class="title" title="Personagens do desenho 'Caverna do Dragão'">
+		<div class="slds-p-around_medium">
+			<template for:each={caverna} for:item='cav'>
+<p key={cav.cod}> Nome: {cav.nome} - Arma: {cav.arma} - Força: {cav.forca} - Função: {cav.funcao}</p>
+</template>
+	</div>
+	<div>
+		<img src="https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/08/09/1803080352-caverna-do-dragao-e1628530177423-700x393.png"/>
+	</div>
+</lightning-card>
+
+</template>
